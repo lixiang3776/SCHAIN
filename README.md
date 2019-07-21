@@ -2,7 +2,7 @@
 
 This is an implementation of SCHAIN in the WWW'17 paper:
 
-"Semi-supervised clustering in Attributed Heterogeneous Information Networks" 
+"Semi-supervised Clustering in Attributed Heterogeneous Information Networks" 
 
 by Xiang Li, Yao Wu, Martin Ester, Ben Kao, Xin Wang, Yudian Zheng.
 
