@@ -1,5 +1,20 @@
 function [matrix,value,NcutDiscrete,t] = optimizeZ_PI(att_matrix1,mp_matrix,constraints,K,alpha,gamma,lambda,A)
 
+% % The function optimizes z.
+% Input:
+% att_matrix1: att_num*n*n, where att_num is the number of attributes.
+% mp_matrix: P*n*n, where P is the number of meta paths used and n is the number of objects.
+% Each mp_matrix(i,:,:) is a meta path based similarity matrix.
+% constraints: the constraint matrix of n*n.
+% K: the number of clusters.
+% alpha: the balance parameter.
+% lambda: the meta path parameter vector.
+% A: the attribute paramter vector.
+% 
+% Output:
+% NcutDiscrete: n*1, is the clustering result of z. 
+% 
+
 P = size(mp_matrix,1);
 att_num = size(att_matrix1,1);
 n = size(mp_matrix,2);
