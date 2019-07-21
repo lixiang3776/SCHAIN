@@ -1,11 +1,9 @@
 function [lambda, A, mu_value] = optimizeWeights_testPI(att_matrix1, mp_matrix, clusters, K, constraints, alpha, gamma)
 % % The function is used to learn weights of meta paths and attributes.
 % Input:
-% att_matrix: n*att_num, where att_num is the number of attributes.
-% mp_matrix: P*n*n, where P is the number of meta paths used and n is the
-% number of objects. Each mp_matrix(i,:,:) is a meta path based
-% similarity matrix.
-% NcutDiscrete: n*1, is the clustering result of z in the previous step. 
+% att_matrix1: att_num*n*n, where att_num is the number of attributes.
+% mp_matrix: P*n*n, where P is the number of meta paths used and n is the number of objects.
+% Each mp_matrix(i,:,:) is a meta path based similarity matrix.
 % K: the number of clusters.
 % constraints: the constraint matrix of n*n.
 % alpha: the balance parameter.
