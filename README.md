@@ -9,9 +9,10 @@ The codes are written by matlab
 
 The starting file is optimization_testPI.m
 
-If you refer to our code, please cite our paper:
+Please cite the above paper if you use our code in this repo.
 
 @inproceedings{li2017semi,
+  
   title={Semi-supervised clustering in attributed heterogeneous information networks},
   
   author={Li, Xiang and Wu, Yao and Ester, Martin and Kao, Ben and Wang, Xin and Zheng, Yudian},
