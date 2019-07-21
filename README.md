@@ -5,7 +5,7 @@ This is an implementation of SCHAIN in the WWW'17 paper:
 
 by authors Xiang Li, Yao Wu, Martin Ester, Ben Kao, Xin Wang, Yudian Zheng.
 
-The codes are written by matlab
+The codes are written by Matlab
 
 The starting file is optimization_testPI.m
 
