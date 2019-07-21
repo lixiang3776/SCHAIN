@@ -11,3 +11,14 @@ The starting file is optimization_testPI.m
 
 Please cite the above paper if you use our code in this repo.
 
+```
+@inproceedings{li2017semi,
+  title={Semi-supervised clustering in attributed heterogeneous information networks},
+  author={Li, Xiang and Wu, Yao and Ester, Martin and Kao, Ben and Wang, Xin and Zheng, Yudian},
+  booktitle={Proceedings of the 26th International Conference on World Wide Web},
+  pages={1621--1629},
+  year={2017},
+  organization={International World Wide Web Conferences Steering Committee}
+}
+```
+
