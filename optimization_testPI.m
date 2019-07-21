@@ -1,4 +1,17 @@
 function [final_nmi,origin_nmi,NcutDiscrete] =  optimization_testPI(att_matrix1, mp_matrix, K,true_cluster,percentage)
+
+% The function implements SCHAIN.
+% Input:
+% att_matrix1: att_num*n*n, where att_num is the number of attributes.
+% mp_matrix: P*n*n, where P is the number of meta paths used and n is the number of objects.
+% Each mp_matrix(i,:,:) is a meta path based similarity matrix.
+% K: the number of clusters.
+% true_cluster: n*1, the true cluster label vector.
+% percentgae: percent of objects whose labels are known
+% 
+% Output:
+% final_nmi: the final average nmi value.
+
 tic;
 out_it = 0;
 gamma = 0.5;
