@@ -1,5 +1,6 @@
 # SCHAIN
-##Introduction
+
+## Introduction
 
 This is an implementation of SCHAIN in the WWW'17 paper:
 
@@ -12,7 +13,8 @@ The codes are written by Matlab
 The starting file is optimization_testPI.m
 
 
-##Reference
+## Reference
+
 Please cite the above paper if you use our code in this repo.
 
 ```
