@@ -1,17 +1,22 @@
 # SCHAIN
 
-## Introduction
-
 This is an implementation of SCHAIN in the WWW'17 paper:
 
 "Semi-supervised clustering in Attributed Heterogeneous Information Networks" 
 
 by authors Xiang Li, Yao Wu, Martin Ester, Ben Kao, Xin Wang, Yudian Zheng.
 
+## Introduction
+
 The codes are written by Matlab
 
 The starting file is optimization_testPI.m
 
+NJW.m: for SCHAIN
+
+NJW_IRAM.m: for SCHAIN-IRAM
+
+PICk.m: for SCHAIN-PI
 
 ## Reference
 
