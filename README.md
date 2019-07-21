@@ -12,7 +12,7 @@ The codes are written by Matlab
 
 The starting file is optimization_testPI.m
 
-NJW.m is used in SCHAIN, NJW_IRAM.m is used in SCHAIN-IRAM, and PICk.m is used in SCHAIN-PI
+NJW.m, NJW_IRAM.m and PICk.m are used in SCHAIN, SCHAIN-IRAM and SCHAIN-PI, respectively.
 
 ## Reference
 
