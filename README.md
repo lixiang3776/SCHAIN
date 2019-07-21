@@ -1,4 +1,6 @@
 # SCHAIN
+##Introduction
+
 This is an implementation of SCHAIN in the WWW'17 paper:
 
 "Semi-supervised clustering in Attributed Heterogeneous Information Networks" 
@@ -9,6 +11,8 @@ The codes are written by Matlab
 
 The starting file is optimization_testPI.m
 
+
+##Reference
 Please cite the above paper if you use our code in this repo.
 
 ```
